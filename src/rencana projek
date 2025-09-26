@@ -1,0 +1,24 @@
+# Rencana 
+membuat game tetris dengan fitur matematika
+-Tujuan: membuat aplikasi game sederhana berbasis html
+-Tools:html
+-Fitur utama :
+1. Tetromino
+Bentuk-bentuk blok (tetrominoes) yang terdiri dari 4 kotak kecil.
+Ada 7 jenis tetromino: I, O, T, S, Z, J, L.
+Setiap tetromino dapat diputar untuk menyesuaikan posisi terbaiknya.
+ 2. Rotasi & Gerakan
+Pemain bisa memutar tetromino searah atau berlawanan arah jarum jam.
+Dapat digerakkan ke kiri, kanan, atau langsung dijatuhkan ke bawah (soft drop dan hard drop).
+ 3. Line Clearing (Menghapus Baris)
+Jika satu baris horizontal penuh, maka baris tersebut dihapus, dan pemain mendapatkan poin.
+Bisa menghapus 1 hingga 4 baris sekaligus (dikenal sebagai Tetris bila menghapus 4 baris sekaligus).
+ 4. Skor dan Level
+Pemain mendapatkan poin berdasarkan jumlah baris yang dihapus sekaligus dan cara menjatuhkan blok.
+Semakin tinggi level, semakin cepat blok jatuh, meningkatkan kesulitan.
+ 5. Next Piece Preview
+Menampilkan tetromino berikutnya, memungkinkan pemain membuat strategi ke depan.
+ 6. Hold Feature (Tahan Blok)
+Beberapa versi modern memungkinkan pemain menyimpan satu tetromino untuk digunakan nanti.
+ 7. Game Over
+Permainan berakhir jika blok menumpuk hingga bagian atas layar dan tidak ada ruang untuk tetromino baru.
